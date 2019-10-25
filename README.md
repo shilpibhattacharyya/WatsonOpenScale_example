@@ -2,8 +2,8 @@
 
 This notebook should be run in a Watson Studio project, using with Python 3.5 with Spark runtime environment. If you are viewing this in Watson Studio and do not see Python 3.5 with Spark in the upper right corner of your screen, please update the runtime now. It requires service credentials for the following Cloud services:
 
-### 1. IBM Watson OpenScale
-### 2. Watson Machine Learning
+#### 1. IBM Watson OpenScale
+#### 2. Watson Machine Learning
 
 The notebook will train, create and deploy a Food Inspection Risk model, configure OpenScale to monitor that deployment, and inject seven days'(not perfect data - still working on it) worth of historical records and measurements for viewing in the OpenScale Insights dashboard.
 
